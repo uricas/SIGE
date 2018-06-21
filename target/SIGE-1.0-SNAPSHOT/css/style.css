@@ -1,0 +1,116 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+.padre{
+	height: 450px;
+	background-image: url('../img/fondo5.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	/*padding-top: 50px;*/
+	display: flex;
+	flex-direction: column;
+
+	/*background-color: #D1CBF8;*/
+	
+}
+
+.bar-top{
+	height: 70px;
+	width: auto;
+	color: white;
+	/*	background: #3A27F0; */
+	background-color:#5048F6;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.bar-top h1{
+	font-family: sans-serif;
+	font-size: 40px;
+}
+
+.formu{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	height: 170px;
+	color: white;
+	background-color: rgba(232,232,232, 0.5);
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30px;
+	align-self: center;
+	
+}
+
+.formu input{
+	width: 80%;
+	height: 30px;
+	border-style: none;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.formu input:last-child{
+	width: 20%;
+	height: 30px;
+	border-style: 3px;
+	font-size: 16px;
+
+}
+
+.formu input::-webkit-input-placeholder {
+  color:#DEDDDD;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+#btnEntrar{
+	background: #0E53C5;
+	color: white;
+	border-style: none;
+	padding: 6px;
+	margin-bottom: 20px;
+        height: 40px;
+        
+}
+
+#btnEntrar:hover{
+	cursor: pointer;
+	background-color: #3235C3;
+}
+
+.info{
+display: flex;
+padding: 0 130px;
+margin-top: 0px;
+margin-top: 0px;
+/* background-color:#5048F6;*/
+/*background-color:#C1C6E6;*/
+background-color: #B0C1CB;
+min-width: 50%;
+
+}
+.contenido-info{
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	height: 200px;
+	overflow: scroll;
+	min-width: 90%;
+	font-family: monospace;
+
+}
+
+.text-center{
+	text-align: center;
+	color: #5048F6;
+	font-family: sans-serif;
+}
